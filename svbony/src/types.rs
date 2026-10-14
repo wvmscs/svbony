@@ -50,6 +50,7 @@ c_enum! {
     /// The "Raw" variants deliver Bayer-mosaic data; the "Y" variants deliver
     /// debayered luminance. Formats wider than 8 bits are packed into 16-bit
     /// (little-endian) containers.
+    #[derive(serde::Deserialize)]
     pub enum ImageType {
         Raw8 = 0,
         Raw10 = 1,

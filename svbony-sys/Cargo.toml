@@ -12,3 +12,7 @@ links = "SVBCameraSDK"
 rust-version = "1.68"
 
 [build-dependencies]
+cc = "1.4.7"
+
+[dependencies]
+
